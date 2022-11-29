@@ -3,12 +3,12 @@
 
 
 def fill_factorial_list(n):
-    list = []
+    f_list = []
     f = 1
     for i in range(1, n + 1):
         f *= i
-        list.append(f)
-    return list
+        f_list.append(f)
+    return f_list
 
 
 print(fill_factorial_list(int(input('Введите число: '))))

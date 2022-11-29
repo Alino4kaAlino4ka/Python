@@ -1,13 +1,28 @@
 # 1 Подсчитать сумму цифр в вещественном числе.
 
-print(sum(map(int, list(input('Введите число: ')))))
 
 
-def s(a):
+def sum_num(input_str):
     res = 0
-    while a > 0:
-        res += a % 10
-        a //= 10
+    for i in input_str:
+        if i.isdigit():
+            res += int(i)
     return res
+
+print(sum_num(input('Введите число: ')))
+
+
+# print(sum(map(int, list(input('Введите число: ')))))
+
+
+# def s(a):
+#     res = 0
+#     while a > 0:
+#         res += a % 10
+#         a //= 10
+#     return res
  
-print(s(int(input('Введите число: '))))
+# print(s(int(input('Введите число: '))))
+
+
+
