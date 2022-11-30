@@ -6,10 +6,18 @@
 # - 3 -> 11
 # - 2 -> 10
 
-print(bin(int(input('Введите число: '))))
-
-
 n = int(input('Введите число '))
+
+print(bin(n))
+
+def decimal_to_binary(n):
+    if n > 1:
+        decimal_to_binary(n // 2)     
+    print(n % 2, end='')
+decimal_to_binary(n)
+
+print()
+
 b = ''
 while n > 0:
     b = str(n % 2) + b
@@ -17,11 +25,7 @@ while n > 0:
 print(b)
 
 
-def decimalToBinary(n):
-    if(n > 1):
-        decimalToBinary(n//2)     
-    print(n%2, end='')
-decimalToBinary(int(input('Введите число: ')))
+
 
 
 
