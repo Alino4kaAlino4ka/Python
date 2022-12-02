@@ -3,4 +3,4 @@
 x = int(input('Введите число Х: '))
 y = int(input('Введите число У: '))
 
-print(x ** x == y or y ** y == x)
+print(x ** 2 == y or y ** 2 == x)
