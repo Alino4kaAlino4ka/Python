@@ -14,7 +14,11 @@ n = int(input('Введите число >= 6: '))
 numbers = fill_list(n)
 print(numbers)
 positions = [1, 3, 6]
-result = numbers[positions[0] - 1] * numbers[positions[1] - 1] * numbers[positions[2] - 1]
-print(result)
+res = 1
+for i in positions:
+    if i <= len(numbers):
+        res *=  numbers[i - 1]
+# result = numbers[positions[0] - 1] * numbers[positions[1] - 1] * numbers[positions[2] - 1]
+print(res)
 
 
