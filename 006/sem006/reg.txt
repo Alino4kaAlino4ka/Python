@@ -1,0 +1,11 @@
+регулярки
+
+https://regex101.com/
+
+https://docs.python.org/3/library/re.html
+https://docs-python.ru/standart-library/modul-re-python/
+
+https://pythonru.com/osnovy/modul-re-dlja-reguljarnyh-vyrazhenij-v-python
+
+сырые строки:
+https://docs-python.ru/tutorial/strokovye-bajtovye-literaly/
