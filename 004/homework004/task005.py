@@ -1,5 +1,18 @@
 #  Даны два файла, в каждом из которых находится запись многочлена.
 # Задача - сформировать файл, содержащий сумму многочленов.
+import Task004
+
+# n = Task004
+# k = int(input('Введите натуральную степень k:'))
+# k2 = int(input('Введите натуральную степень k2:'))
+
+# k_lst = Task004.write_file(task004.koef(k))
+# k_lst2 = Task004.create_list(k2)
+
+
+
+
+
 with open('poly_1.txt', 'w', encoding='utf-8') as file:
     file.write('2*x^2 + 5*x^5')
     

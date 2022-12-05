@@ -10,3 +10,4 @@ d = int(input('Задайте точность '))
 p = {round(pi, d)}
 print(f'π = {p}')
 
+

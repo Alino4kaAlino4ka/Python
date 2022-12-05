@@ -10,6 +10,7 @@
 
 from random import randint
  
+ 
 
 k = int(input('Введите натуральную степень k:'))
  
@@ -34,11 +35,11 @@ def create_str(sp):
     else:
         for i in range(len(list)):
             if i != len(list) - 1 and list[i] != 0 and i != len(list) - 2:
-                wr += f'{list[i]}x^{len(list) - i - 1}'
+                wr += f'{list[i]} x ^ {len(list) - i - 1}'
                 if list [i + 1] != 0:
                     wr += ' + '
             elif i == len(list) - 2 and list[i] != 0:
-                wr += f'{list[i]}x'
+                wr += f'{list[i]} x'
                 if list[i + 1] != 0:
                     wr += ' + '
             elif i == len(list) - 1 and list[i] != 0:
@@ -47,8 +48,11 @@ def create_str(sp):
                 wr += ' = 0'
     return wr
  
-koef = create_list(k)
-write_file(create_str(koef))
+
+
+if __name__ == '__main__':
+    koef = create_list(k)
+    write_file(create_str(koef))
 
 
 

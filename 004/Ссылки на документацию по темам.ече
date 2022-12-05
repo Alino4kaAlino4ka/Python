@@ -1,0 +1,30 @@
+Функция map() в Python
+https://docs.python.org/3/library/functions.html#map
+https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-map/
+
+Функция zip() в Python
+https://docs.python.org/3/library/functions.html#zip
+https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-zip/
+
+Функция filter() в Python
+https://docs.python.org/3/library/functions.html#filter
+https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-filter/
+
+Функция enumerate() в Python
+https://docs.python.org/3/library/functions.html#enumerate
+https://docs-python.ru/tutorial/vstroennye-funktsii-interpretatora-python/funktsija-enumerate/
+
+lambda-выражения, анонимные функции
+https://docs.python.org/3/howto/functional.html#small-functions-and-the-lambda-expression
+https://docs-python.ru/tutorial/opredelenie-funktsij-python/anonimnye-funktsii-lambda-vyrazhenija/
+
+list comprehension
+https://docs.python.org/3/tutorial/datastructures.html#list-comprehensions
+https://docs-python.ru/tutorial/ispolzovanie-spiskov-list-python/generatory-spiskov-sposob-sozdanija/
+https://habr.com/ru/post/320288/
+
+Выражение-генератор в Python
+https://docs.python.org/3/howto/functional.html?highlight=lambda#generator-expressions-and-list-comprehensions
+https://docs-python.ru/tutorial/generatory-python/vyrazhenie-generator/
+
+
