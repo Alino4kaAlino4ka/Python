@@ -1,10 +1,23 @@
 # 5 Реализовать алгоритм перемешивания списка.
 
+
+import random
+
+
 my_list = list(map(int, input('Введите данные в список через пробел: ').split()))
-zolushka = list(filter(lambda x: x == 'мак', my_list))
+my_shuffle = [(my_list[random.randint(0, len(my_list)-1)]) for i in range(len(my_list))]
  
-print (zolushka)
-# ]
+print (my_shuffle)
+
+
+random.shuffle(my_list)
+print(my_list)
+
+
+
+
+
+
 
 # import random
 

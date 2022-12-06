@@ -1,7 +1,7 @@
 # 3 Вывести на экран числа от -N до N.
 
 n = int(input('Введите число N: '))
-print([i for i in range(-n, n+1)])
+print([i for i in range(-n, n + 1)])
 
 
 # m = -n
