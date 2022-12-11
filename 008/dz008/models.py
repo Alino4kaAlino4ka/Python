@@ -51,14 +51,22 @@ def select_last_name(con, last_name):
     cur = con.cursor()
     res = cur.execute(
         f'SELECT * FROM staff WHERE last_name LIKE "{last_name.capitalize()}%";').fetchall()
-    return res
+    out_str = ''
+    for i in res:
+        out_str += ' '.join(map(str, i))
+        out_str += '\n'
+    return out_str
 
 
 def select_position(con, pos):
     cur = con.cursor()
     res = cur.execute(
         f'SELECT * FROM staff WHERE position LIKE "{pos.capitalize()}%";').fetchall()
-    return res
+    out_str = ''
+    for i in res:
+        out_str += ' '.join(map(str, i))
+        out_str += '\n'
+    return out_str
 
 
 def change_sal(con, id_str, zp_str):
